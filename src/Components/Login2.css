@@ -1,0 +1,88 @@
+.background-radial-gradient {
+    background-color: hsl(219, 94%, 7%);
+/* background-image: radial-gradient(650px circle at 0% 0%,
+hsl(219, 83%, 9%) 15%,
+hsl(218, 78%, 9%) 35%,
+hsl(219, 80%, 10%) 75%,
+hsl(217, 76%, 10%) 80%,
+transparent 100%),
+radial-gradient(1250px circle at 100% 100%,
+hsl(218, 80%, 10%) 15%,
+hsl(218, 71%, 11%) 35%,
+hsl(219, 77%, 9%) 75%,
+hsl(215, 78%, 9%) 80%,
+transparent 100%); */
+}
+
+#radius-shape-1 {
+    height: 220px;
+width: 220px;
+top: -60px;
+left: -130px;
+background: radial-gradient(#44006b, #ad1fff);
+overflow: hidden;
+}
+
+#radius-shape-3 {
+    height: 220px;
+width: 220px;
+top: 20px;
+left: -80px;
+background: radial-gradient(#44006b, #ad1fff);
+overflow: hidden;
+}
+
+#radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+bottom: -60px;
+right: -110px;
+width: 300px;
+height: 300px;
+background: radial-gradient(#44006b, #ad1fff);
+overflow: hidden;
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+backdrop-filter: saturate(200%) blur(25px);
+}
+
+.st1{
+    z-index: 10;
+}
+
+.st2{
+    color: hsl(218, 81%, 95%);
+}
+
+.st3{
+    color: hsl(218, 81%, 75%);
+}
+
+.st4{
+    color: hsl(218, 81%, 85%);
+}
+
+.wcol{
+    color:aliceblue;
+}
+
+.footbelow{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.remainw:hover{
+    color:white;
+}
+
+.cst1{
+    width: 50%;
+}
+
+.textdecorationnone{
+    text-decoration: none;
+    color:rgb(165, 31, 31);
+}
+
+
+
